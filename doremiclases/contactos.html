@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doremiclases</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+</head>
+<body>
+  <!-- Menú -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="logo"><a href="#"><img src="imagenes/logo.png" alt="Logo"></a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="nosotros.html">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cómo funciona</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cursos.html">Cursos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Profesores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Testimonios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactos.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <div class="jumbotron text-center">
+    <h1 class="display-4">DOREMICLASES</h1>
+    <h3>Adentrate en el mundo de la música</h3>
+  </div>
+
+  <div class="container">
+    <h1>Formulario de Registro</h1>
+    <div class="row">
+    
+        <form id="registro-form" action="registrar/add.php" method="POST" class="border p-3 form">
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="nombres">Nombres</label>
+                <input type="text" class="form-control" id="nombres" name="nombres" required>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="apellidos">Apellidos</label>
+                <input type="text" class="form-control" id="apellidos" name="apellidos" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="password">Contraseña</label>
+              <input type="password" class="form-control" id="password" name="passwd" required>
+            </div>
+        
+            <div class="form-group">
+              <label for="pais">País</label>
+              <select class="form-control" id="pais" name="pais" required>
+                <option value="">Selecciona un país</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Colombia">Colombia</option>
+                <option value="México">México</option>
+                <option value="Perú">Perú</option>
+                <option value="Venezuela">Venezuela</option>
+              </select>
+            </div>
+            <input type="submit" class="btn btn-primary center-button"></input>
+          </form>
+    </div>
+  </div>
+
+ <!-- Pie de página -->
+ <footer class="bg-dark text-light">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Redes Sociales</h5>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#"><img class= "img-thumbnail img-nosotros-social" src="imagenes/instragran.jpg" alt="" width="50" height="50"> </a></li>
+            <li class="list-inline-item"><a href="#"><img class= "img-thumbnail img-nosotros-social" src="imagenes/facebook.jpg" alt="" width="50" height="50"></a></li>
+            <li class="list-inline-item"><a href="#"><img class= "img-thumbnail img-nosotros-social" src="imagenes/twitter.jpg" alt="" width="50" height="50"></a></li>
+           
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Enlaces Rápidos</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Como funciona</a></li>
+            <li><a href="#">Cursos</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Contacto</h5>
+          <ul class="list-unstyled">
+            <li><i class="fas fa-map-marker-alt"></i> Dirección: Maracay, Venezuela</li>
+            <li><i class="fas fa-phone"></i> Teléfono: +123456789</li>
+            <li><i class="fas fa-envelope"></i> Email: info@exampledoremiclases.com</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>&copy; 2023 Todos los derechos reservados</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+    <!-- Botón de contacto por WhatsApp -->
+    <a href="https://api.whatsapp.com/send?phone=+5804128954309" target="_blank" class="btn-whatsapp">
+      <img class= "btn-what" src="imagenes/whatsapp-icon.png" alt="WhatsApp" width="100" height="100"> 
+    </a>
+  
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  
+   
+</body>
+  </html>
+
+  

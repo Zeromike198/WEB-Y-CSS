@@ -1,0 +1,112 @@
+        
+    /* Estilos para el body */
+    body {
+        background-color: #f2f2f2; /* Color de fondo del body */
+        font-family: Arial, sans-serif; /* Fuentes seguras */
+        color: #333; /* Color del texto */
+        margin: 0; /* Elimina los márgenes por defecto */
+        padding: 0; /* Elimina el padding por defecto */
+      }
+  
+      /* Estilos adicionales */
+      .container {
+        max-width: 960px; /* Ancho máximo del contenido */
+        margin: 0 auto; /* Centra el contenido horizontalmente */
+        padding: 20px; /* Espaciado interno */
+      }
+  
+      h1 {
+        font-size: 32px; /* Tamaño de fuente del título */
+        margin-bottom: 20px; /* Espaciado inferior */
+      }
+  
+      p {
+        line-height: 1.5; /* Espaciado entre líneas */
+      }
+    
+    /* Estilos para el menú */
+    nav {
+        background-color: #000; /* Fondo oscuro */
+        text-align: center; /* Alineación centrada */
+      }
+  
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+  
+      nav ul li {
+        display: inline-block;
+      }
+      
+      nav ul li a {
+        display: inline-block;
+        padding: 10px 20px;
+        color: #fff; /* Color blanco */
+        text-decoration: none;
+        font-family: Arial, sans-serif; /* Fuentes seguras */
+      }
+  
+      nav ul li a:hover {
+        background-color: #5c95db; /* Color de fondo al pasar el mouse */
+      }
+
+      /* Estilos para el logo */
+    .logo img {
+        width: 50px; /* Ancho del logo */
+        height: auto; /* Altura automática para mantener la proporción */
+        vertical-align: middle; /* Alineación vertical */
+        margin-right: 10px; /* Espaciado derecho */
+      }
+
+    /* Estilos para las tarjetas */
+    .card-text{
+        text-align: justify;
+    }
+
+    #nosotros{
+        margin-top: 20px;
+    }
+
+     /* Estilos para centrar los botones */
+    .center-button {
+        margin: 0 auto;
+        display: block;
+    }
+
+       /* Estilos hover para los botones */
+      .btn:hover {
+        background: #e8b11a;
+      }
+
+      .display-4 {text-align: center; 
+        font-family: Arial; 
+        font-size: 50px; 
+        COLOR: #1278BF; 
+        text-shadow: 0px 0px 9px rgb(211, 143, 80);
+        }
+
+       /* Estilos redondeado para la imagen de los testionios */
+      .img-testimonios {
+        clip-path: circle(35%);
+      }
+
+       /* Estilos para las imagenes de redes sociales en el pie de pagina */
+      .img-nosotros-social:hover{
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5)
+      }
+
+    /* Estilos para botón de whatsapp */
+    .btn-what{
+      position:fixed;
+      right: 0px;
+      bottom: 50px;
+      width: 70px;
+      height: 70px;
+      z-index: 100
+    }
